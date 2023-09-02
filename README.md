@@ -10,19 +10,14 @@ this is vs code customization
   "editor.minimap.enabled": false,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
+      { "scope": "comment", "settings": { "fontStyle": "italic" } }
     ]
   },
   // cursor
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   // config related to code formatting
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "svipas.prettier-plus",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false,
@@ -42,7 +37,7 @@ this is vs code customization
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
   // terminal customization
   "workbench.colorCustomizations": {
@@ -70,7 +65,7 @@ this is vs code customization
   "files.autoSave": "afterDelay",
   "editor.tabSize": 2,
   "workbench.sideBar.location": "right",
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "workbench.startupEditor": "none"
-  
+
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "fluent-icons"
 }
